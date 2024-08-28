@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Analysis 
+> Exploratory Data Analysis to identify the key factors for loan defaults and to reduce credit loss for an online loan marketplace.
 
 
 ## Table of Contents
@@ -8,45 +8,33 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- **Background:** This project involves analyzing loan data to identify the primary factors contributing to loan defaults. By understanding these factors, the company can improve its risk assessment process, minimizing financial losses due to defaults.
+- **Business Problem:** The company aims to reduce credit loss by identifying 'risky' loan applicants who are more likely to default. This analysis focuses on the driving factors behind loan defaults, particularly identifying the variables that are strong indicators of default.
+- **Dataset:** The dataset used for this analysis contains information on various loans, including loan amount, interest rates, borrower details, loan status, and more. The key variable of interest is the loan status, where 'Charged Off' indicates a default.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+## Conclusions 
+- Most borrowers successfully repay their loans, but there is a significant portion that defaults, leading to potential financial risk. 
+- Riskier borrowers (lower grades) are charged higher interest rates but are still more likely to default.
+- Homeownership status correlates with risk—borrowers who own homes or have mortgages are less risky compared to those who rent. 
+- Annual income is a strong predictor of default risk—lower income borrowers are more prone to default. 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python- version 3.x
+- Pandas - version 1.x
+- Matplotlib - version 3.x
+- Seaborn- version 0.x
+- Jupyter Notebook - version 6.x
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+## Acknowledgements 
+-This project has been built upon the lectures by Prof.S Anand - This project was based on [this tutorial](https://learn.upgrad.com/course/5803/segment/52472/311891/945614/4718780).
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@thegame-ali]
 
 
-<!-- Optional -->
 <!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+<!-- This project is not open source and available under Upgrad -->
